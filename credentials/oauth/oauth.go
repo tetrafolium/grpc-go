@@ -39,10 +39,10 @@ import (
 	"io/ioutil"
 
 	"github.com/tetrafolium/grpc-go/credentials"
+	"github.com/tetrafolium/oauth2"
+	"github.com/tetrafolium/oauth2/google"
+	"github.com/tetrafolium/oauth2/jwt"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-	"golang.org/x/oauth2/jwt"
 )
 
 // TokenSource supplies credentials from an oauth2.TokenSource.

@@ -46,9 +46,9 @@ import (
 	"github.com/tetrafolium/grpc-go/grpclog"
 	testpb "github.com/tetrafolium/grpc-go/interop/grpc_testing"
 	"github.com/tetrafolium/grpc-go/metadata"
+	"github.com/tetrafolium/oauth2"
+	"github.com/tetrafolium/oauth2/google"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
 )
 
 var (
