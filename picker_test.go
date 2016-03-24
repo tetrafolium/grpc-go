@@ -39,8 +39,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/tetrafolium/grpc-go/naming"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/naming"
 )
 
 type testWatcher struct {

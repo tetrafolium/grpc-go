@@ -5,10 +5,10 @@ package health
 import (
 	"sync"
 
+	"github.com/tetrafolium/grpc-go"
+	"github.com/tetrafolium/grpc-go/codes"
+	healthpb "github.com/tetrafolium/grpc-go/health/grpc_health_v1"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 
 type HealthServer struct {

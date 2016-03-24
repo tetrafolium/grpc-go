@@ -41,10 +41,10 @@ import (
 	"math"
 	"net"
 
+	"github.com/tetrafolium/grpc-go"
+	testpb "github.com/tetrafolium/grpc-go/benchmark/grpc_testing"
+	"github.com/tetrafolium/grpc-go/grpclog"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/grpclog"
 )
 
 func newPayload(t testpb.PayloadType, size int) *testpb.Payload {

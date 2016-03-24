@@ -37,9 +37,9 @@ import (
 	"log"
 	"net"
 
+	"github.com/tetrafolium/grpc-go"
+	pb "github.com/tetrafolium/grpc-go/examples/helloworld/helloworld"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 )
 
 const (

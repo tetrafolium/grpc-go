@@ -43,11 +43,11 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/tetrafolium/grpc-go"
+	"github.com/tetrafolium/grpc-go/credentials"
+	pb "github.com/tetrafolium/grpc-go/examples/route_guide/routeguide"
+	"github.com/tetrafolium/grpc-go/grpclog"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	pb "google.golang.org/grpc/examples/route_guide/routeguide"
-	"google.golang.org/grpc/grpclog"
 )
 
 var (

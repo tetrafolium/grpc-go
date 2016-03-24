@@ -43,11 +43,11 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/tetrafolium/grpc-go/codes"
+	"github.com/tetrafolium/grpc-go/grpclog"
+	"github.com/tetrafolium/grpc-go/metadata"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
 )
 
 const (

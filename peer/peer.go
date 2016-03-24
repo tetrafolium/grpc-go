@@ -38,8 +38,8 @@ package peer
 import (
 	"net"
 
+	"github.com/tetrafolium/grpc-go/credentials"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/credentials"
 )
 
 // Peer contains the information of the peer for an RPC.

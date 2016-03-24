@@ -47,15 +47,15 @@ import (
 	"net"
 	"time"
 
+	"github.com/tetrafolium/grpc-go"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
+	"github.com/tetrafolium/grpc-go/credentials"
+	"github.com/tetrafolium/grpc-go/grpclog"
 
 	"github.com/golang/protobuf/proto"
 
-	pb "google.golang.org/grpc/examples/route_guide/routeguide"
+	pb "github.com/tetrafolium/grpc-go/examples/route_guide/routeguide"
 )
 
 var (

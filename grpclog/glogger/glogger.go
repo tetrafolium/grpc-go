@@ -38,7 +38,7 @@ package glogger
 
 import (
 	"github.com/golang/glog"
-	"google.golang.org/grpc/grpclog"
+	"github.com/tetrafolium/grpc-go/grpclog"
 )
 
 func init() {

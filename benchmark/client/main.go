@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/tetrafolium/grpc-go"
+	"github.com/tetrafolium/grpc-go/benchmark"
+	testpb "github.com/tetrafolium/grpc-go/benchmark/grpc_testing"
+	"github.com/tetrafolium/grpc-go/benchmark/stats"
+	"github.com/tetrafolium/grpc-go/grpclog"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/benchmark"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/stats"
-	"google.golang.org/grpc/grpclog"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/tetrafolium/grpc-go"
+	testpb "github.com/tetrafolium/grpc-go/benchmark/grpc_testing"
+	"github.com/tetrafolium/grpc-go/benchmark/stats"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/stats"
 )
 
 func runUnary(b *testing.B, maxConcurrentCalls int) {

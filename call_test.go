@@ -44,9 +44,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/tetrafolium/grpc-go/codes"
+	"github.com/tetrafolium/grpc-go/transport"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/transport"
 )
 
 var (

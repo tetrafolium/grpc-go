@@ -40,11 +40,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/tetrafolium/grpc-go/codes"
+	"github.com/tetrafolium/grpc-go/metadata"
+	"github.com/tetrafolium/grpc-go/transport"
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/transport"
 )
 
 type streamHandler func(srv interface{}, stream ServerStream) error
